@@ -13,11 +13,12 @@ img {
     border-bottom: 2px solid #08154A;
 }
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand{
     color: #08154A;
     font-size: 20px;
     font-weight: 200;
 }
+
 
 .fa-bars {
     color: #D51635;
@@ -162,6 +163,7 @@ nav .navbar-nav li a:hover {
     margin-left: 40px;
     font-weight: 700;
 }
+
 
 .about-section .software li{
     display: inline;
@@ -396,6 +398,10 @@ footer {
 .about-section p {
     margin-left: -100px;
     padding-right: 100px;
+}
+    
+.about-section .padding {
+    padding-left: 110px;
 }
 
 .about-section .software {
