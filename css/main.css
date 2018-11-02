@@ -88,14 +88,14 @@ nav .navbar-nav li a:hover {
 .portfolio-section h4 {
     font-size: 25px;
     font-weight: 600;
-    padding: 0px 40px;
+    padding: 0px 20px;
 }
 
 .portfolio-section p{
     font-weight: 300;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: -5px;
-    padding: 0px 50px;
+    padding: 0px 3px;
 }
 
 .portfolio-section .img1 {
@@ -204,7 +204,93 @@ nav .navbar-nav li a:hover {
     font-weight: 500;
 }
 
+.sub-banner {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    padding: 100px 30px 50px 30px;
+    color: black; 
+}
+
+.sub-banner h1 {
+    font-size: 25px;
+    padding: 0px 50px;
+    font-weight: 600;
+}
+
+.sub-banner h3 {
+    font-weight: 300;
+    font-size: 15px;
+    color:#08154A;
+}
+
+.sub-banner img {
+    height: auto;
+    max-width: 400px;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
 .content-section {
+    padding: 0px 25px 0px 25px;
+    text-align: left;
+}
+
+.content-section h1 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content-section p {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.content-section ul {
+    list-style: none;
+    margin-left: -40px;
+    padding-bottom: 15px;
+}
+
+.content-section li {
+    font-size: 15px;
+}
+
+.content-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 700px;
+    padding-bottom: 20px;
+}
+
+.content-section a:hover {
+    opacity: .05;
+    text-decoration: none;
+}
+
+.content-section .img1 {
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-bottom: 70px;
+}
+
+
+.content-section2 {
     padding: 200px 0px 200px 0px;
     text-align: center;
 }
@@ -290,6 +376,15 @@ footer {
     margin-left: -40px;
 }
 
+.sub-banner {
+    padding-top: 125px;  
+}
+.content-section {
+    padding: 0px 150px 0px 150px; 
+}
+    
+}
+
 
 @media screen and (min-width: 1080px) {
 
@@ -306,5 +401,8 @@ footer {
 .about-section .software {
     margin-right: -400px;
 }
-    
+
+.content-section {
+    padding: 0px 300px 0px 300px; 
+}
 }
