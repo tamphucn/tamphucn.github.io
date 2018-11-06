@@ -245,22 +245,23 @@ nav .navbar-nav li a:hover {
     font-size: 25px;
     font-weight: 700;
     text-align: center;
+    padding-top: 15px;
 }
 
 .content-section h2 {
     font-size: 18px;
     font-weight: 700;
+    padding-top: 15px;
 }
 
 .content-section p {
     font-size: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .content-section ul {
     list-style: none;
     margin-left: -40px;
-    padding-bottom: 15px;
 }
 
 .content-section li {
@@ -288,7 +289,7 @@ nav .navbar-nav li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
 
 
