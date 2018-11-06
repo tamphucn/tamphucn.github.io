@@ -226,6 +226,7 @@ nav .navbar-nav li a:hover {
     color:#08154A;
 }
 
+
 .sub-banner img {
     height: auto;
     max-width: 400px;
@@ -252,6 +253,13 @@ nav .navbar-nav li a:hover {
     font-size: 18px;
     font-weight: 700;
     padding-top: 15px;
+}
+
+.content-section h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
 }
 
 .content-section p {
@@ -285,6 +293,16 @@ nav .navbar-nav li a:hover {
 .content-section .img1 {
     height: auto;
     max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.content-section .img2 {
+    height: auto;
+    max-width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -344,6 +362,7 @@ footer {
     border-bottom: 8px solid #0E4789;
 }
 
+
 .home-banner h3 {
     font-weight: 300;
     font-size: 30px;
@@ -382,8 +401,37 @@ footer {
 .sub-banner {
     padding-top: 125px;  
 }
+    
 .content-section {
     padding: 0px 150px 0px 150px; 
+}
+    
+.sub-banner h1 {
+    font-size: 35px;
+}
+
+.sub-banner h3 {
+    font-size: 20px;
+}
+    
+.content-section h1 {
+    font-size: 30px;
+}
+
+.content-section h2 {
+    font-size: 20px;
+}
+
+.content-section h3 {
+    font-size: 30px;
+}
+
+.content-section p {
+    font-size: 17px;
+}
+
+.content-section li {
+    font-size: 17px;
 }
     
 }
@@ -393,7 +441,6 @@ footer {
 
 .home-banner h3 {
     padding: 0px 100px 10px 100px;
-    
 }
     
 .about-section p {
@@ -409,7 +456,40 @@ footer {
     margin-right: -400px;
 }
 
-.content-section {
-    padding: 0px 300px 0px 300px; 
+.about-section .padding-left {
+    margin-left: 100px;  
 }
+    
+.sub-banner h1 {
+    font-size: 35px;
+}
+
+.sub-banner h3 {
+    font-size: 20px;
+}
+
+.content-section {
+    padding: 0px 250px 0px 250px; 
+}
+    
+.content-section h1 {
+    font-size: 35px;
+}
+
+.content-section h2 {
+    font-size: 25px;
+}
+
+.content-section h3 {
+    font-size: 35px;
+}
+
+.content-section p {
+    font-size: 20px;
+}
+
+.content-section li {
+    font-size: 20px;
+}
+    
 }
