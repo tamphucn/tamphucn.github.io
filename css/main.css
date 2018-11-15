@@ -8,6 +8,10 @@ img {
     width: 50%;
 }
 
+iframe {
+    padding-bottom: 10px;
+}
+
 .navbar-custom {
     background-color: #ffffff;
     border-bottom: 2px solid #08154A;
@@ -117,7 +121,7 @@ nav .navbar-nav li a:hover {
 .portfolio-section .img3 {
     width: 100%;
     height: auto;
-    max-width: 275px;
+    max-width: 350px;
     padding-top: 50px;
     padding-bottom: 10px;
 }
@@ -380,12 +384,14 @@ footer {
     height: auto;
     max-width: 300px;
     padding-top: 35px;
+    padding-bottom: 7px;
 }
 .portfolio-section .img3 {
     width: 100%;
     height: auto;
-    max-width: 240px;
-    padding-top: 15px;
+    max-width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .about-section img {
@@ -412,6 +418,7 @@ footer {
 
 .sub-banner h3 {
     font-size: 20px;
+    padding: 0px 100px;
 }
     
 .content-section h1 {
@@ -443,6 +450,16 @@ footer {
     padding: 0px 100px 10px 100px;
 }
     
+.portfolio-section .img2 {
+    padding-top: 25px;
+    padding-bottom: 11px;
+}
+    
+.portfolio-section .img3 {
+    padding-top: 50px;
+    padding-bottom: 42px;
+}
+    
 .about-section p {
     margin-left: -100px;
     padding-right: 100px;
@@ -466,6 +483,7 @@ footer {
 
 .sub-banner h3 {
     font-size: 20px;
+    padding: 0px 300px;
 }
 
 .content-section {
