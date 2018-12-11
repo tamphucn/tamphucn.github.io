@@ -2,6 +2,7 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
+    font-family: "Helvetica Neue"
 }
 
 img {
@@ -30,7 +31,7 @@ iframe {
 
 
 nav .navbar-nav li a {
-    color: #000000 !important;
+    color: #08154A !important;
     font-size: 17px;
     font-weight: 200;
 }
@@ -43,7 +44,7 @@ nav .navbar-nav li a:hover {
     background-color: #08154A;
     height: auto;
     width: 100%;
-    padding: 140px 30px 100px 30px;
+    padding: 150px 40px 110px 40px;
     color: #ffffff;
 }
 
@@ -54,6 +55,7 @@ nav .navbar-nav li a:hover {
     border-color: #ffffff;
     border-radius: 12px;
     color: #ffffff;
+    font-size: 17px;
 }
 
 .home-banner a:hover {
@@ -62,7 +64,7 @@ nav .navbar-nav li a:hover {
 }
 
 .home-banner h1 {
-    font-size: 10vw;
+    font-size: 9vw;
     color: #D51635;
     padding-bottom: 10px;
     border-bottom: 8px solid #0E4789;
@@ -70,7 +72,8 @@ nav .navbar-nav li a:hover {
 
 .home-banner h3 {
     font-weight: 300;
-    font-size: 25px;
+    font-size: 20px;
+    padding-bottom: 5px;
 }
 
 .padding {
@@ -81,7 +84,7 @@ nav .navbar-nav li a:hover {
     background-color: #D51635;
     width: 250px;
     margin-top: 40px;
-    padding: 5px 0px 5px 85px;
+    padding: 5px 0px 5px 60px;
     color: #ffffff;
     font-size: 40px;
 }
@@ -342,9 +345,23 @@ footer {
 
 
 @media screen and (min-width: 768px) {
+.navbar-light .navbar-brand{
+    color: #08154A;
+    font-size: 23px;
+    font-weight: 200;
+    margin-left: -15px;
+}
+
+
+nav .navbar-nav li a {
+    color: #08154A !important;
+    font-size: 16px;
+    font-weight: 200;
+}
+
 .home-banner {
     min-height: 75vh;
-    padding: 150px 100px 100px 100px;
+    padding: 170px 90px 120px 90px;
     color: #ffffff;
 }
 
@@ -355,20 +372,25 @@ footer {
     border-color: #ffffff;
     border-radius: 12px;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .home-banner h1 {
-    font-size: 7vw;
+    font-size: 60px;
     color: #D51635;
-    padding-bottom: 10px;
+    padding: 0px 50px 10px 50px;;
     border-bottom: 8px solid #0E4789;
 }
 
 
 .home-banner h3 {
     font-weight: 300;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 0px 40px;
+}
+
+.home-banner a {
+    font-size:18px;
 }
 
 .portfolio-section .img1 {
@@ -444,9 +466,18 @@ footer {
 
 
 @media screen and (min-width: 1080px) {
+.home-banner h1 {
+    font-size: 5vw;
+    padding: 0px 170px;
+}
 
 .home-banner h3 {
-    padding: 0px 100px 10px 100px;
+    padding: 0px 200px 10px 200px;
+    font-size: 25px;
+}
+
+.home-banner a {
+    font-size: 20px;  
 }
     
 .portfolio-section .img2 {
