@@ -18,10 +18,10 @@ iframe {
     border-bottom: 2px solid #08154A;
 }
 
-.navbar-light .navbar-brand{
+.navbar-light .navbar-brand {
     color: #08154A;
     font-size: 23px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 
@@ -40,22 +40,28 @@ nav .navbar-nav li a:hover {
     color: #D51635 !important;
 }
 
+
 .home-banner {
-    background-color: #08154A;
+    text-align: left;
     height: auto;
+    min-height: 95vh;
     width: 100%;
-    padding: 150px 40px 110px 40px;
-    color: #ffffff;
+    padding: 225px 20px 150px 10px;
+    color: #000000;
 }
 
 .home-banner a {
-    margin-top: 10px;
+    margin: 20px 20px 0px 0px;
     padding: 12px 20px;
-    background-color: #08154A;
-    border-color: #ffffff;
-    border-radius: 12px;
-    color: #ffffff;
+    background-color: #ffffff;
+    border-color: #08154A;
+    border-radius: 20px;
+    color: #08154A;
     font-size: 17px;
+}
+
+.custom {
+    width: 147px !important;
 }
 
 .home-banner a:hover {
@@ -64,16 +70,17 @@ nav .navbar-nav li a:hover {
 }
 
 .home-banner h1 {
-    font-size: 9vw;
+    font-size: 40px;
     color: #D51635;
     padding-bottom: 10px;
-    border-bottom: 8px solid #0E4789;
+    font-weight: 600;
+
 }
 
 .home-banner h3 {
     font-weight: 300;
-    font-size: 20px;
-    padding-bottom: 5px;
+    font-size: 25px;
+
 }
 
 .padding {
@@ -86,12 +93,13 @@ nav .navbar-nav li a:hover {
     margin-top: 40px;
     padding: 5px 0px 5px 60px;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .portfolio-section {
     padding: 0px 40px;
 }
+
 
 .portfolio-section h4 {
     font-size: 25px;
@@ -348,49 +356,37 @@ footer {
 .navbar-light .navbar-brand{
     color: #08154A;
     font-size: 23px;
-    font-weight: 200;
+    font-weight: 300;
     margin-left: -15px;
 }
 
 
 nav .navbar-nav li a {
     color: #08154A !important;
-    font-size: 16px;
-    font-weight: 200;
-}
-
-.home-banner {
-    min-height: 75vh;
-    padding: 170px 90px 120px 90px;
-    color: #ffffff;
-}
-
-.home-banner a {
-    margin-top: 10px;
-    padding: 12px 20px;
-    background-color: #08154A;
-    border-color: #ffffff;
-    border-radius: 12px;
-    color: #ffffff;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 300;
 }
 
 .home-banner h1 {
-    font-size: 60px;
-    color: #D51635;
-    padding: 0px 50px 10px 50px;;
-    border-bottom: 8px solid #0E4789;
+    font-size: 45px;
 }
 
 
 .home-banner h3 {
-    font-weight: 300;
-    font-size: 20px;
-    padding: 0px 40px;
+    font-size: 30px;
+    padding-right: 50px;
+
 }
 
 .home-banner a {
-    font-size:18px;
+    margin: 25px 30px 0px 0px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.custom {
+    width: 200px !important;
 }
 
 .portfolio-section .img1 {
@@ -467,17 +463,24 @@ nav .navbar-nav li a {
 
 @media screen and (min-width: 1080px) {
 .home-banner h1 {
-    font-size: 5vw;
-    padding: 0px 170px;
+    font-size: 60px;
 }
 
 .home-banner h3 {
-    padding: 0px 200px 10px 200px;
+    padding-right: 50px;
+    font-size: 40px;
+}
+
+
+.home-banner a {
+    margin: 30px 30px 0px 0px;
+    padding: 12px 20px;
+    border-radius: 20px;
     font-size: 25px;
 }
 
-.home-banner a {
-    font-size: 20px;  
+.custom {
+    width: 250px !important;
 }
     
 .portfolio-section .img2 {
