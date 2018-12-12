@@ -188,7 +188,7 @@ nav .navbar-nav li a:hover {
 .about-section .software img {
     height: auto;
     width: auto;
-    max-height: 80px;
+    max-height: 70px;
     padding-right: 3%;
     padding-top: 15px;
 }
@@ -198,6 +198,7 @@ nav .navbar-nav li a:hover {
     height: 280px;
     color: #ffffff;
     padding: 45px 0px;
+    width: 100%
 }
 
 .contact-section h1 {
@@ -213,6 +214,10 @@ nav .navbar-nav li a:hover {
 .contact-section ul {
     list-style: none;
     padding-top: 35px;
+}
+
+.contact-section li {
+    padding: 0px 42px;
 }
 
 .contact-section a {
@@ -509,13 +514,13 @@ nav .navbar-nav li a {
 .about-section .padding {
     padding-left: 110px;
 }
-
+    
 .about-section .software {
-    margin-right: -400px;
+    margin-right: -200px;
 }
 
 .about-section .padding-left {
-    margin-left: 100px;  
+    margin-left: 7vw;  
 }
     
 .sub-banner h1 {
