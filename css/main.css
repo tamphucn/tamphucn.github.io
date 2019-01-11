@@ -1,8 +1,11 @@
 body {
     width: 100%;
     height: 100%;
+    margin 0px;
+    padding: 0px;
+    overflow-x: hidden;
     text-align: center;
-    font-family: "Helvetica Neue"
+    font-family: "Helvetica Neue", Lato;
 }
 
 img {
@@ -13,6 +16,13 @@ iframe {
     padding-bottom: 10px;
 }
 
+.cent
+{  
+    height: 100%;
+    display: table-cell;   
+    vertical-align: middle;    
+}
+
 .navbar-custom {
     background-color: #ffffff;
     border-bottom: 2px solid #08154A;
@@ -20,7 +30,7 @@ iframe {
 
 .navbar-light .navbar-brand {
     color: #08154A;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 300;
 }
 
@@ -43,25 +53,25 @@ nav .navbar-nav li a:hover {
 
 .home-banner {
     text-align: left;
-    height: auto;
-    min-height: 92vh;
+    height: 92vh;
     width: 100%;
-    padding: 180px 20px 150px 10px;
+    padding: 28vh 20px 150px 10px;
     color: #000000;
 }
 
 .home-banner a {
     margin: 20px 20px 0px 0px;
-    padding: 12px 20px;
+    padding: 12px 0px;
     background-color: #ffffff;
     border-color: #08154A;
     border-radius: 20px;
     color: #08154A;
-    font-size: 17px;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Lato;
 }
 
 .custom {
-    width: 147px !important;
+    width: 170px !important;
 }
 
 .home-banner a:hover {
@@ -70,7 +80,7 @@ nav .navbar-nav li a:hover {
 }
 
 .home-banner h1 {
-    font-size: 42px;
+    font-size: 55px;
     color: #D51635;
     padding-bottom: 10px;
     font-weight: 600;
@@ -117,7 +127,7 @@ nav .navbar-nav li a:hover {
 .portfolio-section .img1 {
     width: 100%;
     height: auto;
-    max-width: 300px;
+    max-width: 400px;
     padding-top: 50px;
     padding-bottom: 10px;
 }
@@ -133,6 +143,14 @@ nav .navbar-nav li a:hover {
     width: 100%;
     height: auto;
     max-width: 350px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.portfolio-section .img4 {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
     padding-top: 50px;
     padding-bottom: 10px;
 }
@@ -360,7 +378,7 @@ footer {
 @media screen and (min-width: 768px) {
 .navbar-light .navbar-brand{
     color: #08154A;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 300;
     margin-left: -15px;
 }
@@ -368,16 +386,12 @@ footer {
 
 nav .navbar-nav li a {
     color: #08154A !important;
-    font-size: 17px;
-    font-weight: 300;
-}
-
-.home-banner {
-    padding: 225px 20px 150px 10px;  
+    font-size: 18px;
+    font-weight: 00;
 }
     
 .home-banner h1 {
-    font-size: 45px;
+    font-size: 60px;
 }
 
 
@@ -389,35 +403,35 @@ nav .navbar-nav li a {
 
 .home-banner a {
     margin: 25px 30px 0px 0px;
-    padding: 12px 20px;
+    padding: 12px 0px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
+    
 
 .custom {
     width: 200px !important;
 }
 
 .portfolio-section .img1 {
-    width: 100%;
-    height: auto;
-    max-width: 250px;
+    max-width: 300px;
     padding-top: 50px;
 }
 
 .portfolio-section .img2 {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
+    max-width: 350px;
     padding-top: 35px;
     padding-bottom: 7px;
 }
 .portfolio-section .img3 {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
+    max-width: 350px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+    
+.portfolio-section .img4 {
+    max-width: 300px;
+    padding-top: 50px;
 }
 
 .about-section img {
@@ -471,17 +485,13 @@ nav .navbar-nav li a {
 
 
 @media screen and (min-width: 1024px) {
-.home-banner {
-    padding: 250px 20px 150px 10px;  
-}
-
 .home-banner h1 {
-    font-size: 65px;
+    font-size: 67px;
 }
 
 .home-banner h3 {
     padding-right: 50px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 
@@ -495,25 +505,13 @@ nav .navbar-nav li a {
 .custom {
     width: 250px !important;
 }
-    
-.portfolio-section .img2 {
-    padding-top: 25px;
-    padding-bottom: 11px;
-}
-    
-.portfolio-section .img3 {
-    padding-top: 50px;
-    padding-bottom: 42px;
-}
+
     
 .about-section p {
     margin-left: -100px;
     padding-right: 100px;
 }
-    
-.about-section .padding {
-    padding-left: 110px;
-}
+
     
 .about-section .software {
     margin-right: -200px;
@@ -557,3 +555,173 @@ nav .navbar-nav li a {
 }
     
 }
+
+@media screen and (min-width: 1500px) {
+.home-banner {
+    padding-left: 15px; 
+}
+    
+.home-banner h1 {
+    font-size: 90px;
+}
+
+.home-banner h3 {
+    padding-right: 200px;
+    font-size: 40px;
+}
+
+
+.home-banner a {
+    font-size: 30px;
+}
+    
+.custom {
+    width: 300px !important;
+}
+    
+.title-background {
+    width: 300px;
+    margin-top: 40px;
+    padding: 5px 0px 5px 60px;
+    font-size: 50px;
+}
+
+.portfolio-section {
+    padding: -100px
+}
+
+
+.portfolio-section h4 {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+
+.portfolio-section p{
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: -5px;
+    padding: 0px 3px;
+}
+
+.portfolio-section .img1 {
+    max-width: 400px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.portfolio-section .img2 {
+    max-width: 425px;
+    padding-top: 50px;
+}
+
+.portfolio-section .img3 {
+    max-width: 450px;
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+    
+.portfolio-section .img4 {
+    max-width: 400px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+    
+.about-section p {
+    font-size: 35px;
+    text-align: left;
+    font-weight: 400;
+    margin-top: -5px;
+    margin-left: -150px;
+}
+
+.about-section {
+    padding: 50px 0px ;
+}
+
+.profile {
+    max-width: 100%;    
+}
+    
+
+.profile {
+    padding-bottom: 30px;
+}
+    
+.about-section ul {
+    margin-left: -80px;
+    padding-right: 200px;
+}
+
+.about-section li {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.about-section h4 {
+    text-align: left;
+    font-size: 70px;
+    padding-top: 40px;
+    margin-left: -40px;
+}
+    
+
+.about-section img {
+    max-width: 60%;
+    margin-left: -100px;
+}
+    
+.about-section .software li{
+    display: inline;
+    margin-right: 3px;
+}
+
+.about-section .software img {
+    max-height: 90px;
+    margin-left: 0px;
+    
+}
+
+.social-media li{
+    display: inline;
+    text-align: center;
+    margin-left: -60px;
+    margin-right: -15px;
+}
+ 
+.contact-section {
+    height: 350px;
+    padding: 50px 0px;
+    width: 100%
+}
+
+.contact-section h1 {
+    font-size: 65px;
+    padding-bottom: 40px;
+    font-weight: 600;
+}
+
+    
+.contact-section ul {
+    list-style: none;
+    padding-top: 35px;
+}
+
+.contact-section li {
+    padding: 0px 42px;
+}
+
+.contact-section a {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+}
+    
+footer {
+    height: 60px;
+    padding: 15px;
+    font-weight: 200;
+    font-size: 20px;
+}
+}
+
