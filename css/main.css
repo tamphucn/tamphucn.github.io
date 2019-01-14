@@ -55,8 +55,22 @@ nav .navbar-nav li a:hover {
     text-align: left;
     height: 92vh;
     width: 100%;
-    padding: 28vh 20px 150px 10px;
+    padding: 18vh 20px 150px 10px;
     color: #000000;
+}
+
+.home-banner h1 {
+    font-size: 50px;
+    color: #D51635;
+    padding-bottom: 10px;
+    font-weight: 600;
+
+}
+
+.home-banner h3 {
+    font-weight: 300;
+    font-size: 25px;
+
 }
 
 .home-banner a {
@@ -66,7 +80,7 @@ nav .navbar-nav li a:hover {
     border-color: #08154A;
     border-radius: 20px;
     color: #08154A;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Helvetica Neue", Lato;
 }
 
@@ -79,19 +93,7 @@ nav .navbar-nav li a:hover {
     color: #D51635;
 }
 
-.home-banner h1 {
-    font-size: 55px;
-    color: #D51635;
-    padding-bottom: 10px;
-    font-weight: 600;
 
-}
-
-.home-banner h3 {
-    font-weight: 300;
-    font-size: 27px;
-
-}
 
 .padding {
     padding: 30px 0px 0px 0px;
@@ -374,6 +376,36 @@ footer {
     font-size: 15px;
 }
 
+@media screen and (min-width: 518px) {
+.home-banner {
+    padding-top: 28vh;
+}
+    
+.home-banner h1 {
+    font-size: 55px;
+    color: #D51635;
+    padding-bottom: 10px;
+    font-weight: 600;
+
+}
+
+.home-banner h3 {
+    font-weight: 300;
+    font-size: 27px;
+
+}
+
+.home-banner a {
+    margin: 20px 20px 0px 0px;
+    padding: 12px 0px;
+    background-color: #ffffff;
+    border-color: #08154A;
+    border-radius: 20px;
+    color: #08154A;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Lato;
+}
+}
 
 @media screen and (min-width: 768px) {
 .navbar-light .navbar-brand{
